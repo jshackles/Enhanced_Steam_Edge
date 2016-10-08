@@ -7,7 +7,7 @@
 	<Identity 
 		Name="Enhanced Steam" 
 		Publisher="www.EnhancedSteam.com" 
-		Version="8.8" />
+		Version="8.9.1" />
 
 	<Properties> 
 		<DisplayName>Enhanced Steam</DisplayName> 

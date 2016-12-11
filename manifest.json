@@ -1,71 +1,21 @@
 {
-    "author": "www.EnhancedSteam.com",
-    "content_scripts": [
-        {
-            "matches": [
-                "http://*.steampowered.com/*",
-                "https://*.steampowered.com/*",
-                "http://steamcommunity.com/*",
-                "https://steamcommunity.com/*"
-            ],
-            "exclude_matches": [
-                "*://store.steampowered.com/dynamicstore/*",
-                "*://store.steampowered.com/checkout/*",
-                "*://store.steampowered.com/widget/*",
-                "*://store.steampowered.com/login/*",
-                "*://store.steampowered.com/join/*",
-                "*://store.steampowered.com/api/*",
-                "*://steamcommunity.com/login/*"
-            ],
-            "js": [
-                "js/jQuery.min.js",
-                "js/select2.min.js",
-                "enhancedsteam.js"
-            ],
-            "css": [
-                "css/enhancedsteam.css",
-                "css/select2.css",
-                "css/enhancedsteam-firefox.css"
-            ]
-        },
-        {
-            "matches": [
-                "http://*.steampowered.com/app/*",
-                "http://*.steampowered.com/sub/*",
-                "http://*.steampowered.com/sale/*",
-                "http://*.steampowered.com/"
-            ],
-            "css": [
-                "css/es_flags.css",
-                "css/es_flags-firefox.css"
-            ]
-        },
-        {
-            "matches": [
-                "https://steamcommunity.com/tradeoffer/*"
-            ],
-            "js": [
-                "js/steamcommunity.com/tradeoffer.js"
-            ],
-            "css": [
-                "css/steamcommunity.com/tradeoffer.css"
-            ]
-        }
-    ],
+    "name": "Enhanced Steam",
+    "version": "9.1.1",
     "description": "Enhances the Steam Experience",
-    "homepage_url": "http://www.EnhancedSteam.com/",
     "icons": {
         "128": "img/enhancedsteam.png"
     },
     "manifest_version": 2,
-    "name": "Enhanced Steam",
-    "options_page": "options.html",
+    "options_ui": {
+        "page": "options.html",
+        "open_in_tab": true
+    },
     "permissions": [
         "storage",
         "*://*.steampowered.com/*",
-        "*://steamcommunity.com/*"
+        "*://steamcommunity.com/*",
+        "*://api.enhancedsteam.com/*"
     ],
-    "version": "8.9.1",
     "web_accessible_resources": [
         "img/game_area_warning.png",
         "img/line_chart.png",
@@ -73,19 +23,14 @@
         "img/birthday_logo_bg.gif",
         "img/birthday_bg.png",
         "img/ico/steamgifts.png",
+        "img/ico/steamtrades.png",
         "img/ico/steamrep.png",
         "img/ico/srcn.png",
         "img/ico/steamdb.png",
         "img/ico/achievementstats.png",
-        "img/ico/steamgifts_col.png",
-        "img/ico/steamrep_col.png",
-        "img/ico/steamdb_col.png",
-        "img/ico/achievementstats_col.png",
         "img/ico/steamcardexchange.png",
         "img/ico/backpacktf.png",
-        "img/ico/backpacktf_col.png",
         "img/ico/astatsnl.png",
-        "img/ico/astatsnl_col.png",
         "img/ico/keylol.png",
         "img/steamdb.png",
         "img/steamdb_store.png",
@@ -213,5 +158,69 @@
     "-ms-preload": {
         "backgroundScript": "backgroundScriptsAPIBridge.js",
         "contentScript": "contentScriptsAPIBridge.js"
-    }
+    },
+    "author": "www.EnhancedSteam.com",
+    "homepage_url": "http://www.EnhancedSteam.com/",
+    "content_scripts": [
+        {
+            "matches": [
+                "http://*.steampowered.com/*",
+                "https://*.steampowered.com/*",
+                "http://steamcommunity.com/*",
+                "https://steamcommunity.com/*"
+            ],
+            "exclude_matches": [
+                "*://store.steampowered.com/dynamicstore/*",
+                "*://store.steampowered.com/checkout/*",
+                "*://store.steampowered.com/widget/*",
+                "*://store.steampowered.com/login/*",
+                "*://store.steampowered.com/join/*",
+                "*://store.steampowered.com/api/*",
+                "*://steamcommunity.com/login/*"
+            ],
+            "js": [
+                "js/jQuery.min.js",
+                "js/select2.min.js",
+                "enhancedsteam.js"
+            ],
+            "css": [
+                "css/enhancedsteam.css",
+                "css/select2.css",                
+                "css/enhancedsteam-firefox.css"
+            ]
+        },
+        {
+            "matches": [
+                "http://*.steampowered.com/app/*",
+                "http://*.steampowered.com/sub/*",
+                "http://*.steampowered.com/sale/*",
+                "http://*.steampowered.com/"
+            ],
+            "css": [
+                "css/es_flags.css",
+                "css/es_flags-firefox.css"
+            ]
+        },
+        {
+            "matches": [
+                "https://steamcommunity.com/tradeoffer/*"
+            ],
+            "js": [
+                "js/steamcommunity.com/tradeoffer.js"
+            ],
+            "css": [
+                "css/steamcommunity.com/tradeoffer.css"
+            ]
+        },
+        {
+            "matches": [
+                "*://steamcommunity.com/id/*",
+                "*://steamcommunity.com/profiles/*"
+            ],
+            "css": [
+                "css/es_sites_links.css",
+                "css/es_sites_links-firefox.css"
+            ]
+        }
+    ]
 }

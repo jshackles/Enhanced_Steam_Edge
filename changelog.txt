@@ -1,6 +1,42 @@
-﻿v8.9.1
+﻿v9.1.1
 -----
-: Fixed a bug where sell buttons would disappear after selling an item
+: Updated the advanced inventory controls to work with the new layout, they are now enabled by default
+: Fixed a bug where site icons would display incorrectly on profiles if the display style was set to none
+: Fixed a bug that would sometimes cause quick sell functions to sell items for the wrong amount
+: Fixed a bug that could cause some game's workshop item list not to load correctly
+
+v9.1
+-----
++ Added DRM detection for games utilizing Denuvo Antitamper DRM
++ Added home page customization with the ability to hide particular sections
++ Added an option as to whether you would like your wallet balance show in the header of community pages
+: Updated the quick sell and instant sell buttons to use the new inventory data layout Valve created
+: Updated external site icons with higher resolution versions
+: Fixed a bug that caused some "season packs" to incorrectly show a split calculation
+: Fixed a bug where metacritic user scores weren't displaying correctly with the new layout
+
+v9.0.1
+-----
++ Home page "All New Releases" and "Popular" tabs now use the same visual format of other tabs
+: Fixed a few localization errors in the options page
+- Removed the home page carousel feature as it is now somewhat redundant with popup flyovers
+- Removed the home page customization feature as it was causing some user's browsers to crash
+
+v9.0
+-----
++ Added an option to hide the "Empty Wishlist" button on users wishlist pages
++ Added additional search filtering options to hide games based on mixed or negative review scores
++ Added a search filter to exclude items over a certain price
++ Added a search filter to exclude user-selectable tags from search results
++ Added a feature that dims unlocked achievement icons on progress pages
++ Adds an "Add Nickname" button to profiles of users you're not currently friends with
++ Added SteamTrades icon to user's Steam profile pages
++ Added sort and view options to other user's badge pages
++ Added market links and pricing information to inventory items with market restrictions
+: Fixed a bug where some homepage elements weren't highlighted correctly
+: Fixed a bug on workshop items where the media slider could distort images in some cases
+: Fixed a bug where the link filter wouldn't be disabled properly in modal boxes
+: Fixed a bug that caused the user profile Twitch integration to fail in some circumstances
 
 v8.9
 -----

@@ -1,5 +1,6 @@
 {
   "post_history":"Показать историю сообщений",
+  "add_nickname":"Добавить псевдоним",
   "forums":"Форумы",
   "total_size":"Полный размер",
   "dlc_details":"Информация загружаемого контента",
@@ -7,7 +8,7 @@
   "each":"Каждая",
   "view_in_market":"Просмотреть на Торговой площадке",
   "homepage_spotlight":"Обзор",
-  "official_group_url":"steamcommunity.com\/groups\/enhancedsteamru",
+  "official_group_url":"steamcommunity.com/groups/enhancedsteamru",
   "remove":"Убрать",
   "get_help":"Получить помощь",
   "add_selected_dlc_to_cart":"Добавить выделенные дополнения в корзину",
@@ -21,7 +22,7 @@
   "packs":"Комплекты",
   "remove_owned_wishlist":"Убрать из списка желаемого купленные игры",
   "donate":"Пожертвовать",
-  "close":"Close",
+  "close":"Закрыть",
   "coupon_application_note":"При покупке купон будет использован автоматически.",
   "hide":"Спрятать",
   "cards_owned":"Есть __owned__ карт из __possible__ возможных",
@@ -52,6 +53,7 @@
   "quick_sell":"Быстро продать за __amount__",
   "instant_sell":"Мгновенно продать за __amount__",
   "starting_at":"Начиная от",
+  "hardwareads":"Hardware Advertising",
   "homepage_tabs":"Вкладки на главной странице",
   "store":"Магазин",
   "view_in":"Просмотреть в",
@@ -67,14 +69,14 @@
   "add_to_wishlist":"Добавить в список желаемого",
   "language":"Язык",
   "theworddefault":"По умолчанию",
-  "coupon_learn_more":"Узнать больше о <a href=\"https:\/\/support.steampowered.com\/kb_article.php?ref=4210-YIPC-0275\">купонах Steam<\/a>",
+  "coupon_learn_more":"Узнать больше о <a href=\"https://support.steampowered.com/kb_article.php?ref=4210-YIPC-0275\">купонах Steam</a>",
   "show":"Показать",
   "badges_all":"Все значки",
   "comparison_mode":"Включить, чтобы увидеть сравнение",
   "search":"Поиск",
   "es_supporter":"Поддержал «Enhanced Steam»",
   "view_to_scale":"Просмотр в масштабе",
-  "videos":"Видео \/ Трейлеры",
+  "videos":"Видео / Трейлеры",
   "community":"Сообщество",
   "dlc_data_header":"Детали дополнений",
   "graphics":"Дизайн",
@@ -106,6 +108,7 @@
   "buy_wishlist":"Купить список желаемого",
   "highlight":"Подсвечивать",
   "save":"Сохранить",
+  "not":"Не __tag__",
   "add_to_cart":"Добавить в корзину",
   "view":"Просмотреть",
   "games_all":"Все игры",
@@ -114,19 +117,23 @@
   "gift_transactions":"Операции с подарками",
   "demos":"Демо-версии",
   "notinterested":"Предметы, отмеченные не интересными",
+  "mixed_item":"Предметы со смешанным рейтингом",
+  "negative_item":"Предметы с отрицательным рейтингом",
+  "price_above":"Предметы, стоящие больше чем",
+  "price_above_tooltip":"Enter zero for free items or items without price tags; leave this field empty to disable this feature",
   "news":"Новости",
   "check_system":"Проверить систему",
   "viewinclient":"Просмотр в клиенте Steam",
   "custom_background":"Пользовательский фон ",
   "custom_style":"Пользовательская Тема",
   "custom_style_help":"Все пользователи Enhanced Steam увидят эту тему в вашем профиле. Пользователи без этого расширения  не увидят каких либо изменений.",
-  "noneselected":"Не выбрано \/ без изменений",
+  "noneselected":"Не выбрано / без изменений",
   "most_drops":"Большинство выпадений",
   "badge_foil_progress":"Просмотреть прогресс металлического значка",
   "net_gain":"Чистый доход",
   "apppage_legal":"Правовая информация",
   "acrtag_msg":"Обмен между определенными регионами был отключен для этого предмета",
-  "bug_feature":"Сообщить об ошибке \/ предложить новую функцию",
+  "bug_feature":"Сообщить об ошибке / предложить новую функцию",
   "always":"Всегда",
   "compare":"Сравнить",
   "discount":"Скидка",
@@ -135,7 +142,7 @@
   "rating_details":"Просмотреть информацию рейтинга",
   "drops_worth_avg":"Примерная стоимость",
   "using_store_return":"Нажмите здесь, чтобы вернуться в __base__ магазин.",
-  "family_sharing_notice":"<b>Примечание:<\/b> Эта игра недоступна в Family Sharing.",
+  "family_sharing_notice":"<b>Примечание:</b> Эта игра недоступна в Family Sharing.",
   "valid":"Правильно",
   "price_options":"Ценовые настройки",
   "no_results_found":"Ничего не найдено",
@@ -233,6 +240,9 @@
   "note_for":"Примечания для",
   "show_wishlist_total":"Показать весь список желаемого",
   "tag_short":"Использовать короткие теги для экономии места",
+  "no_price_data":"Данные о цене отсутствуют",
+  "exclude_tags":"Исключить метки",
+  "user_score":"User Score",
   "achievements":{
     "option":"Отображать достижения на страницах в магазине",
     "achievements":"Достижения",
@@ -270,7 +280,7 @@
     "error_loading_library":"Не получилось загрузить вашу библиотеку.",
     "categories":"Категории…",
     "genres":"Жанры…",
-    "private_profile":"Чтобы использовать эту функцию, вы должны <a href='http:\/\/steamcommunity.com\/my\/edit\/settings'>сделать свой профиль открытым для всех<\/a>."
+    "private_profile":"Чтобы использовать эту функцию, вы должны <a href='http://steamcommunity.com/my/edit/settings'>сделать свой профиль открытым для всех</a>."
   },
   "spy":{
     "player_data":"Данные об игроках",
@@ -283,6 +293,7 @@
   },
   "options":{
     "wsgf":"Отображать информацию о поддержке широкоэкранных мониторов (WSGF)",
+    "version_show":"Показать журнал изменений при обновлении Enhanced Steam",
     "steamcardexchange":"Отображать ссылки сайта SteamCardExchange на значках",
     "regional_price":"Сравнение цен в регионах",
     "acrtag":"Показать предупреждения к предметам, у которых запрещен обмен между регионами",
@@ -328,7 +339,8 @@
     "friends_rec":"Продукты, на которые ваши друзья сделали обзоры",
     "lowestprice_header":"Информация по истории цен",
     "total_spent":"Отображать сумму всех потраченных средств на странице аккаунта",
-    "about_text":"О расширении «<a href=http:\/\/www.EnhancedSteam.com>Enhanced Steam<\/a>»:<p>«Enhanced Steam» — это расширение для Google Chrome, которое добавляет полезные особенности на сайт Steam.<p>Особенности включают:<ul><li>Подсвечивание игр, которые уже у вас есть<li>Подсвечивание игр, которые имеются в вашем списке желаемого<li>Правильный подсчет скидок наборов, основанных на играх, которые у вас есть<li>Отображение суммы денег, которое вы потратили за время существования вашего аккаунта<li>Подсвечивание дополнений, которые у вас есть, на странице игр<li>Замена картинки «No Image Available», которая иногда отображается у игр и дополнений<li>Предупреждение об использовании игр дополнительных клиентов и защиты (GFWL, Uplay и т.д.)<\/ul><p>Если вы считаете, что расширение очень полезно, то, пожалуйста, пожертвуйте любую сумму автору расширения.",
+    "add_wallet_balance":"Show Steam Wallet funds in header",
+    "about_text":"О расширении «<a href=http://www.EnhancedSteam.com>Enhanced Steam</a>»:<p>«Enhanced Steam» — это расширение для Google Chrome, которое добавляет полезные особенности на сайт Steam.<p>Особенности включают:<ul><li>Подсвечивание игр, которые уже у вас есть<li>Подсвечивание игр, которые имеются в вашем списке желаемого<li>Правильный подсчет скидок наборов, основанных на играх, которые у вас есть<li>Отображение суммы денег, которое вы потратили за время существования вашего аккаунта<li>Подсвечивание дополнений, которые у вас есть, на странице игр<li>Замена картинки «No Image Available», которая иногда отображается у игр и дополнений<li>Предупреждение об использовании игр дополнительных клиентов и защиты (GFWL, Uplay и т.д.)</ul><p>Если вы считаете, что расширение очень полезно, то, пожалуйста, пожертвуйте любую сумму автору расширения.",
     "stores_all":"Сравнить все магазины",
     "show_early_access_text":"Отображать баннеры раннего доступа",
     "author_info":"создано jshackles",
@@ -366,6 +378,7 @@
     "showspeechsearch":"Добавить значок голосового поиска в поле поиска",
     "profile_link_images_color":"Цветные",
     "hide_about":"Спрятать ссылку «О STEAM» в шапке",
+    "show_empty_wishlist":"Показывать кнопку \"Очистить список желаемого\"",
     "inventory_nav_text":"Отображать расширенную навигацию на странице инвентаря",
     "carousel_description":"Отображать описания на главной странице магазина Steam",
     "market_total":"Отображать сумму всех операций на Торговой площадке",
@@ -393,7 +406,7 @@
     "add_another_region":"Добавить",
     "skip_got_steam":"Пропустить окно\"У Вас есть установленный Steam клиент ?\"",
     "store_general_thirdparty":"Настройки получения информации от сторонних сайтов",
-    "purchase_dates":"Show apps purchase date on store pages",
+    "purchase_dates":"Показывать дату покупки приложения на странице магазина",
     "lang":{
       "english":"Английский",
       "brazilian":"Португальско-бразильский",
@@ -427,7 +440,7 @@
     "errormsg":"Ошибка загрузки данных Enhanced Steam",
     "loading":"«Enhanced Steam» загружается...",
     "ready":"\"Enhanced Steam\" готов",
-    "failed":"One or more requests failed"
+    "failed":"Не удалось выполнить запрос(ы)"
   },
   "twitch":{
     "now_streaming":"__username__ начал трансляцию на Twich",
@@ -463,12 +476,12 @@
     "wishlist":"Список желаемого",
     "friends_own":"У __friendcount__ есть",
     "coupon":"Купон",
-    "friends_rec":"Друзей сделало обзор: <a href=\"http:\/\/store.steampowered.com\/recommended\/byfriends\/__appid__\">__friendcount__ ",
+    "friends_rec":"Друзей сделало обзор: <a href=\"http://store.steampowered.com/recommended/byfriends/__appid__\">__friendcount__ ",
     "inv_gift":"Подарок",
     "inv_guestpass":"Гостевой пропуск",
     "owned":"Приобретено",
     "notinterested":"Не интересно",
-    "friends_want":"<a href=\"http:\/\/steamcommunity.com\/my\/friendsthatplay\/__appid__\">Ваши друзья (__friendcount__) хотят это<\/a>"
+    "friends_want":"<a href=\"http://steamcommunity.com/my/friendsthatplay/__appid__\">Ваши друзья (__friendcount__) хотят это</a>"
   },
   "wallet":{
     "custom_amount":"Добавить определенную сумму",
@@ -492,8 +505,8 @@
     "num_items":"__num__ элементы"
   },
   "update":{
-    "dont_show":"Don't Show Again",
-    "updated":"Enhanced Steam has been updated to __version__",
-    "changes":"This release includes the following changes"
+    "dont_show":"Больше не показывать",
+    "updated":"Enhanced Steam был обновлён до версии __version__",
+    "changes":"Эта версия включает в себя следующие изменения"
   }
 }

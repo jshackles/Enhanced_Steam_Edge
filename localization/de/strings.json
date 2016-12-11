@@ -1,5 +1,6 @@
 {
   "post_history":"Postverlauf anzeigen",
+  "add_nickname":"Spitznamen hinzufügen",
   "forums":"Foren",
   "total_size":"Gesamtgröße",
   "dlc_details":"Details zu Herunterladbaren Inhalten",
@@ -7,7 +8,7 @@
   "each":"pro Spiel",
   "view_in_market":"Im Communitymarkt anzeigen",
   "homepage_spotlight":"Rampenlicht",
-  "official_group_url":"steamcommunity.com\/groups\/enhancedsteam",
+  "official_group_url":"steamcommunity.com/groups/enhancedsteam",
   "remove":"Entfernen",
   "get_help":"Hilfe",
   "add_selected_dlc_to_cart":"Ausgewählten DLC in den Warenkorb ",
@@ -21,7 +22,7 @@
   "packs":"Pakete",
   "remove_owned_wishlist":"Spiele, die du schon besitzt, von der Wunschliste entfernen",
   "donate":"Spenden",
-  "close":"Close",
+  "close":"Schließen",
   "coupon_application_note":"Ein Gutschein aus deinem Inventar wird automatisch im Warenkorb angewendet.",
   "hide":"Verbergen",
   "cards_owned":"__owned__ von __possible__ Karten im Besitz",
@@ -52,6 +53,7 @@
   "quick_sell":"Schnellverkauf für __amount__",
   "instant_sell":"Sofortverkauf für __amount__",
   "starting_at":"Ab",
+  "hardwareads":"Hardware Advertising",
   "homepage_tabs":"Startseiten-Tabs",
   "store":"Shop",
   "view_in":"Zeige in",
@@ -67,14 +69,14 @@
   "add_to_wishlist":"Zur Wunschliste hinzufügen",
   "language":"Sprache",
   "theworddefault":"Standard",
-  "coupon_learn_more":"<a href=\"https:\/\/support.steampowered.com\/kb_article.php?ref=4210-YIPC-0275\">Mehr über Steam-Gutscheine lernen<\/a>",
+  "coupon_learn_more":"<a href=\"https://support.steampowered.com/kb_article.php?ref=4210-YIPC-0275\">Mehr über Steam-Gutscheine lernen</a>",
   "show":"Anzeigen",
   "badges_all":"Alle Abzeichen",
   "comparison_mode":"Übersicht aller Spiele aktivieren, um Vergleiche zu sehen",
   "search":"Suchen",
   "es_supporter":"Enhanced-Steam-Unterstützer",
   "view_to_scale":"Im korrekten Maßstab anzeigen",
-  "videos":"Videos \/ Trailer",
+  "videos":"Videos / Trailer",
   "community":"Community",
   "dlc_data_header":"Details über herunterladbare Inhalte",
   "graphics":"Grafik",
@@ -106,6 +108,7 @@
   "buy_wishlist":"Wunschliste kaufen",
   "highlight":"Hervorheben",
   "save":"Speichern",
+  "not":"Nicht __tag__",
   "add_to_cart":"In den Warenkorb legen",
   "view":"Ansicht",
   "games_all":"Alle Spiele",
@@ -114,19 +117,23 @@
   "gift_transactions":"Geschenk-Käufe",
   "demos":"Demoversionen",
   "notinterested":"Spiele, die mit \"Nicht interessiert\" markiert sind",
+  "mixed_item":"Artikel mit ausgeglichener Bewertung",
+  "negative_item":"Artikel mit negativer Bewertung",
+  "price_above":"Artikel, die mehr kosten als",
+  "price_above_tooltip":"Enter zero for free items or items without price tags; leave this field empty to disable this feature",
   "news":"Neuigkeiten",
   "check_system":"Dein System überprüfen",
   "viewinclient":"Im Steam-Client anzeigen",
   "custom_background":"Eigener Hintergrund",
   "custom_style":"Eigener Stil",
   "custom_style_help":"Alle Benutzer von Enhanced Steam werden diesen Stil auf deinem Profil sehen. Personen, die Enhanced Steam nicht verwenden, werden keine Veränderungen sehen.",
-  "noneselected":"Nichts ausgewählt \/ keine Veränderung",
+  "noneselected":"Nichts ausgewählt / keine Veränderung",
   "most_drops":"Meiste Kartenfunde",
   "badge_foil_progress":"Glanzabzeichen-Fortschritt anzeigen",
   "net_gain":"Nettogewinn",
   "apppage_legal":"Rechtliche Hinweise",
   "acrtag_msg":"Der Handel zwischen gewissen Regionen wurde für dieses Spiel deaktiviert",
-  "bug_feature":"Fehler melden \/ Verbesserungsvorschläge",
+  "bug_feature":"Fehler melden / Verbesserungsvorschläge",
   "always":"Immer",
   "compare":"Vergleichen",
   "discount":"Preisnachlass",
@@ -135,7 +142,7 @@
   "rating_details":"Bewertungsdetails ansehen",
   "drops_worth_avg":"Ungefährer Wert",
   "using_store_return":"Hier klicken, um zum Shop für __base__ zurückzukehren.",
-  "family_sharing_notice":"<b>Hinweis:<\/b> Dieses Spiel kann nicht über Steam Family Sharing geteilt werden!",
+  "family_sharing_notice":"<b>Hinweis:</b> Dieses Spiel kann nicht über Steam Family Sharing geteilt werden!",
   "valid":"Gültig",
   "price_options":"Preisoptionen",
   "no_results_found":"Keine Ergebnisse gefunden",
@@ -233,6 +240,9 @@
   "note_for":"Notiz für",
   "show_wishlist_total":"Wunschlisten-Gesamtbetrag anzeigen",
   "tag_short":"Kurze Tags benutzen, um Platz zu sparen",
+  "no_price_data":"Keine Preisdaten verfügbar",
+  "exclude_tags":"Tags ausschließen",
+  "user_score":"User Score",
   "achievements":{
     "option":"Errungenschaften auf Shopseiten anzeigen",
     "achievements":"Errungenschaften",
@@ -270,7 +280,7 @@
     "error_loading_library":"Deine Bibliothek konnte nicht geladen werden.",
     "categories":"Kategorien...",
     "genres":"Genres...",
-    "private_profile":"Ändere deinen Profil Status zu \"öffentlich\" <a href='http:\/\/steamcommunity.com\/my\/edit\/settings'>in your settings<\/a> um diese Funktion zu nutzen."
+    "private_profile":"Ändere deinen Profil Status zu \"öffentlich\" <a href='http://steamcommunity.com/my/edit/settings'>in your settings</a> um diese Funktion zu nutzen."
   },
   "spy":{
     "player_data":"Spielerdaten",
@@ -283,6 +293,7 @@
   },
   "options":{
     "wsgf":"Informationen von WSGF (Widescreen) anzeigen",
+    "version_show":"Zeige Änderungsprotokoll, wenn Enhanced Steam aktualisiert wird",
     "steamcardexchange":"SteamCardExchange-Links bei Abzeichen anzeigen",
     "regional_price":"Regionaler Preisvergleich",
     "acrtag":"Warnungen bei Spielen anzeigen, bei denen der grenzüberschreitende Handel deaktiviert ist",
@@ -328,7 +339,8 @@
     "friends_rec":"Titel, zu denen deine Freunde Reviews geschrieben haben",
     "lowestprice_header":"Preisentwicklung",
     "total_spent":"Gesamtausgaben in den Accountdetails anzeigen",
-    "about_text":"<div class=\"header\">Über <a href='http:\/\/www.enhancedsteam.com'>Enhanced Steam<\/a>:<\/div><p>Enhanced Steam ist eine Google Chrome Erweiterung die der Steam Webseite viele neue Funktionen hinzufügt.<p>Enthaltene Funktionen:<ul><li>Hervorheben von Spielen die du bereits besitzt<\/li><li>Spiele die sich auf deiner Wunschliste befinden hervorheben<\/li><li>Korrektes berechnen von Bundle Preisnachlässen basierend auf bereits im Besitz befindlichen Titeln<\/li><li>Anzeigen von deinen Gesamtausgaben auf Steam seit bestehen deines Kontos<\/li><li>Hervorheben von DLC auf Spieleseiten den du bereits besitzt<\/li><li>Korrektur von \"Kein Bild verfügbar\" Spieleicons auf deiner Wunschliste für jedes Spiel oder DLC<\/li><li>Warnhinweise falls ein Spiel DRM Maßnahmen von dritten verwendet<\/li><\/ul><p>Bitte denke über eine kleine Spende nach falls du diese Erweiterung nützlich findest.",
+    "add_wallet_balance":"Show Steam Wallet funds in header",
+    "about_text":"<div class=\"header\">Über <a href='http://www.enhancedsteam.com'>Enhanced Steam</a>:</div><p>Enhanced Steam ist eine Google Chrome Erweiterung die der Steam Webseite viele neue Funktionen hinzufügt.<p>Enthaltene Funktionen:<ul><li>Hervorheben von Spielen die du bereits besitzt</li><li>Spiele die sich auf deiner Wunschliste befinden hervorheben</li><li>Korrektes berechnen von Bundle Preisnachlässen basierend auf bereits im Besitz befindlichen Titeln</li><li>Anzeigen von deinen Gesamtausgaben auf Steam seit bestehen deines Kontos</li><li>Hervorheben von DLC auf Spieleseiten den du bereits besitzt</li><li>Korrektur von \"Kein Bild verfügbar\" Spieleicons auf deiner Wunschliste für jedes Spiel oder DLC</li><li>Warnhinweise falls ein Spiel DRM Maßnahmen von dritten verwendet</li></ul><p>Bitte denke über eine kleine Spende nach falls du diese Erweiterung nützlich findest.",
     "stores_all":"Alle Shops vergleichen",
     "show_early_access_text":"Early-Access-Banner anzeigen",
     "author_info":"von jshackles",
@@ -366,6 +378,7 @@
     "showspeechsearch":"Spracheingabe bei Suchfeldern hinzufügen",
     "profile_link_images_color":"Farbig",
     "hide_about":"\"Über\"-Link nicht anzeigen",
+    "show_empty_wishlist":"\"Wunschliste leeren\"-Schaltfläche anzeigen",
     "inventory_nav_text":"Erweiterte Navigation im Inventar anzeigen",
     "carousel_description":"Spielbeschreibungen im Karussell auf der Shop-Startseite anzeigen",
     "market_total":"Transaktionszusammenfassung im Markt anzeigen",
@@ -393,7 +406,7 @@
     "add_another_region":"Hinzufügen",
     "skip_got_steam":"Fenster \"Ist Steam auf Ihrem Computer installiert?\" überspringen",
     "store_general_thirdparty":"Optionen für Informationen von Seiten von Dritten",
-    "purchase_dates":"Show apps purchase date on store pages",
+    "purchase_dates":"Kaufdatum auf Store-Seiten zeigen",
     "lang":{
       "english":"Englisch",
       "brazilian":"Brasil. Portugiesisch",
@@ -427,7 +440,7 @@
     "errormsg":"Fehler beim Laden von Enchanced Steam-Daten",
     "loading":"Enhanced Steam lädt Daten...",
     "ready":"Enchanced Steam ist bereit",
-    "failed":"One or more requests failed"
+    "failed":"Eine oder mehrere Anfragen sind gescheitert"
   },
   "twitch":{
     "now_streaming":"__username__ ist live auf Twitch",
@@ -463,12 +476,12 @@
     "wishlist":"Wunschliste",
     "friends_own":"__friendcount__ besitzen",
     "coupon":"Gutschein",
-    "friends_rec":"<a href=\"http:\/\/store.steampowered.com\/recommended\/byfriends\/__appid__\">__friendcount__ Reviews von Freunden",
+    "friends_rec":"<a href=\"http://store.steampowered.com/recommended/byfriends/__appid__\">__friendcount__ Reviews von Freunden",
     "inv_gift":"Geschenk",
     "inv_guestpass":"Besucherpass",
     "owned":"Im Besitz",
     "notinterested":"Nicht interessiert",
-    "friends_want":"<a href=\"http:\/\/steamcommunity.com\/my\/friendsthatplay\/__appid__\">__friendcount__ mal gewünscht<\/a>"
+    "friends_want":"<a href=\"http://steamcommunity.com/my/friendsthatplay/__appid__\">__friendcount__ mal gewünscht</a>"
   },
   "wallet":{
     "custom_amount":"Eigenen Betrag hinzufügen",
@@ -492,8 +505,8 @@
     "num_items":"__num__ Gegenstände"
   },
   "update":{
-    "dont_show":"Don't Show Again",
-    "updated":"Enhanced Steam has been updated to __version__",
-    "changes":"This release includes the following changes"
+    "dont_show":"Nicht erneut zeigen",
+    "updated":"Enhanced Steam wurde auf __version__ aktualisiert",
+    "changes":"Diese Version enthält die folgenden Änderungen"
   }
 }

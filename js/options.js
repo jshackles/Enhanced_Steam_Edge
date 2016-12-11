@@ -108,6 +108,7 @@ var settings_defaults = {
 	
 	"hideinstallsteambutton": false,
 	"hideaboutmenu": false,
+	"showemptywishlist": true,
 	"version_show": true,
 	"replaceaccountname": false,
 	"showfakeccwarning": true,
@@ -120,7 +121,7 @@ var settings_defaults = {
 	"showdrm": true,
 	"show_acrtag_info": false,
 	"regional_hideworld": false,
-	"showinvnav": false,
+	"showinvnav": true,
 	"showesbg": true,
 	"quickinv": true,
 	"quickinv_diff": -0.01,
@@ -141,16 +142,16 @@ var settings_defaults = {
 	"show_profile_link_images": "gray",
 	"profile_steamrepcn": true,
 	"profile_steamgifts": true,
+	"profile_steamtrades": true,
 	"profile_steamrep": true,
 	"profile_steamdbcalc": true,
 	"profile_astats": true,
 	"profile_backpacktf": true,
 	"profile_astatsnl": true,
-	"profile_api_info": false, // not used?
-	"api_key": false, // not used?
 	"profile_permalink": true,
 	"steamcardexchange": true,
-	"purchase_dates": true
+	"purchase_dates": true,
+	"add_wallet_balance": true
 };
 
 // Saves options to localStorage
@@ -398,20 +399,12 @@ function load_profile_link_images() {
 	storage.get(function(settings) {
 		settings.show_profile_link_images = $("#profile_link_images_dropdown").val();
 		$("#profile_link_images_dropdown").val(settings.show_profile_link_images);
-		switch(settings.show_profile_link_images) {
-			case "gray":
-				$(".site_icon").show();
-				$(".site_icon_col").hide();
-				break;
-			case "color":
-				$(".site_icon").show();
-				$(".site_icon_gray").hide();
-				break;
-			case "false":
-				$(".site_icon").hide();
-				break;
-			default:
-				break;
+		
+		$(".es_sites_icons").show();
+		$("#profile_links").toggleClass("es_gray", (settings.show_profile_link_images == "gray"));
+		
+		if (settings.show_profile_link_images == "false") {
+			$(".es_sites_icons").hide();
 		}
 	});
 }

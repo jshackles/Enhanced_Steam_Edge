@@ -129,14 +129,6 @@ img.platform_small, .platform_img {
 .wishlistRowItem {
 	overflow: initial !important;
 }
-#es_permalink_text {
-	color: #EBEBEB;
-	height:29px;
-}
-#es_permalink {
-	margin: 8px 0px 0px 6px;
-	direction:rtl;
-}
 .search_result_row .tags a {
 	text-decoration: none;
 	color: #FFF;
@@ -774,17 +766,6 @@ input[type=checkbox].es_dlc_selection:checked + label {
 #es_sell #market_sell_buyercurrency_input:invalid {
 	border-color: #c00000;
 }
-#enhanced_pulldown {
-	display: inline-block;
-	margin: 1px;
-	padding-left: 4px;
-	line-height: 19px;
-}
-#enhanced_pulldown.focus {
-	margin: 0px;
-	border: 1px solid #82807C;
-	color: #ffffff;
-}
 
 .es_recentAchievements {
 	position: absolute;
@@ -820,7 +801,7 @@ input[type=checkbox].es_dlc_selection:checked + label {
 }
 .home_page_body_ctn:not(.has_takeover) #es_customize_btn {
 	position: absolute;
-	right: 15px;
+	right: 232px;
 }
 .home_page_body_ctn:not(.has_takeover) .home_cluster_ctn {
 	margin-top: 40px
@@ -828,6 +809,27 @@ input[type=checkbox].es_dlc_selection:checked + label {
 .home_page_body_ctn:not(.has_takeover) #es_customize_btn .home_viewsettings_popup {
 	right: 2px;
 }
+.home_viewsettings_label {
+	text-transform: capitalize;
+}
+
+/***************************************
+ * Customize buttons
+ **************************************/
+.es_hide {
+	height: 0px;
+	overflow: hidden;
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+
+.es_show {
+	height: inherit;
+	overflow: initial;
+}
+
 
 /***************************************
  * App page, wishlist buttons
@@ -851,15 +853,11 @@ input[type=checkbox].es_dlc_selection:checked + label {
 	border: none;
 	color: rgba(255, 255, 255, .8);
 	border-radius: 2px;
+	cursor: pointer;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
-.es-leave-selected {	
+.es-group-leave-button:disabled {	
 	opacity: 0.5;
-	cursor: default !important;
-}
-.es-leave-selected.active{
-	opacity: 1;
-	cursor: pointer !important;
 }
 .es-leave-all {
 	background: linear-gradient(to bottom, #D00707 5%, #690404 95%);
@@ -871,14 +869,11 @@ input[type=checkbox].es_dlc_selection:checked + label {
 }
 .es-select-checkbox {
 	margin-left: 10px;
+	cursor: pointer;
 }
 .es-row-selected {
 	background-color: #1A2533 !important;
 	box-shadow: inset 0 0 1px #506885;
-}
-.es-group-leave-button,
-.es-select-checkbox {
-	cursor: pointer;
 }
 .es-rejoin-group {
 	font-size: 12px;
@@ -1042,6 +1037,7 @@ input[type=checkbox].es_dlc_selection:checked + label {
  **************************************/
 .highlight_ctn,
 .highlight_overflow,
+.workshop_item_header #highlight_player_area,
 .workshop_item_header .highlight_player_item iframe,
 .workshop_item_header .workshopItemPreviewImageEnlargeable,
 .workshop_item_header .workshopItemPreviewImageEnlargeableContainer {
@@ -1087,16 +1083,17 @@ input[type=checkbox].es_dlc_selection:checked + label {
 .workshop_item_header.es_expanded .col_right {
 	display: none;
 }
-.workshop_item_header.es_expanded .highlight_ctn,
-.workshop_item_header.es_expanded .highlight_overflow {
-	width: 920px;
-}
 .workshop_item_header.es_expanded .highlight_player_item iframe,
 .workshop_item_header.es_expanded .workshopItemPreviewImageEnlargeable,
 .workshop_item_header.es_expanded .workshopItemPreviewImageEnlargeableContainer {
-	width: 920px;
+	width: auto;
 	height: 520px;
 	max-width: 920px !important;
+}
+.workshop_item_header.es_expanded .highlight_ctn,
+.workshop_item_header.es_expanded .highlight_overflow,
+.workshop_item_header.es_expanded .highlight_player_item iframe {
+	width: 920px;
 }
 .workshop_item_header .es_slider_toggle {
 	display: block;
@@ -1978,3 +1975,185 @@ input[type=checkbox].es_dlc_selection:checked + label {
 	display: none;
 }
 
+/**************************************
+ * Search result filter
+ *************************************/
+
+.es_input_number {
+	background-color: rgba( 103, 193, 245, 0.2 );
+	color: #fff;
+	border: 1px solid #000;
+	border-radius: 3px;
+	box-shadow: 1px 1px 0px rgba( 103, 193, 245, 0.15 );
+	width: calc(100% - 10px);
+	padding: 5px;
+}
+
+.es_input_text {
+	background-color: #2a3f5a;
+        color: #fff;
+    border: 1px solid #000;
+    border-radius: 3px;
+    box-shadow: 1px 1px 0px #45556c;
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.es_input_text.blur {
+	color:#62696e;
+}
+
+/***************************************
+ * Global Achievements pages
+ **************************************/
+.achieveRow:not(.unlocked) > .compareImg > img:not(:hover) {
+	opacity: 0.15;
+	filter: grayscale(75%);
+	transition: opacity 0.25s ease-in-out;
+}
+
+/***************************************
+ * User profiles
+ * add_profile_style()
+ **************************************/
+.es_profile_style.es_style_clear .profile_header_badge {
+	background-color: rgba(22,22,23, 0.6) !important;
+	background-image: none !important;
+	box-shadow: none !important;
+}
+.es_profile_style.es_style_clear .profile_content {
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+.es_profile_style.es_style_clear .profile_header_bg,
+.es_profile_style.es_style_clear .profile_header_bg_texture {
+	background-image: none !important;
+}
+
+/***************************************
+ * Site wide
+ * add_enhanced_steam_options()
+ **************************************/
+#es_menu {
+	display: inline-block;
+}
+#es_popup {
+	display: none;
+}
+#es_pulldown {
+	vertical-align: middle;
+	display: inline-block;
+	margin: 1px;
+	padding-left: 4px;
+	line-height: 19px;
+}
+#es_pulldown.focus {
+	margin: 0px;
+	border: 1px solid #82807C;
+	color: #ffffff;
+}
+.es_profile_link a {
+	display: inline-block;
+	margin-top: 10px;
+}
+
+/***************************************
+ * Users profiles
+ * add_community_profile_links()
+ **************************************/
+#es_permalink {
+	padding: 2px 3px;
+	margin: 8px 0px 0px 6px;
+	direction: rtl;
+	box-shadow: rgb(0, 0, 0) 0px 0px 1px 1px inset,
+				rgba(193, 193, 193, 0.168627) 0px 0px 0px 1px;
+}
+#es_permalink_div .count_link_label {
+	color: #EBEBEB;
+}
+
+/***************************************
+ * Apps Store pages
+ * add_metacritic_userscore()
+ **************************************/
+#game_area_userscore {
+	color: #4a617c
+}
+#game_area_userscore span {
+	color: #7e96a3;
+}
+#game_area_metascore.es_area_userscore .metacritic {
+	margin-top: -4px !important;
+}
+
+/***************************************
+ * Users profiles
+ * add_profile_style()
+ **************************************/
+.holidayprofile .persona_name.persona_name_spacer {
+	pointer-events: none; /* fixes username and alias dropdown not being clickable */
+}
+.holidayprofile .profile_content {
+	margin-top: -66px !important;
+	padding-top: 24px !important;
+}
+
+/***************************************
+ * MetaCritic User Scores
+ * add_metacritic_userscore()
+ **************************************/
+#game_area_userscore {
+	margin-top: 6px;
+	padding-top: 10px;
+	clear: both;
+}
+
+#game_area_userscore .score {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-size: 25px;
+	text-align: center;
+	float: left;
+}
+
+#game_area_userscore .score.high {
+	background-color: #66CC33;
+}
+
+#game_area_userscore .score.medium {
+	background-color: #FFCC33;
+}
+
+#game_area_userscore .score.low {
+	background-color: #FF0000;
+}
+
+#game_area_userscore .logo {
+	background-image: url(/public/images/v6/mc_logo_no_text.png);
+	background-repeat: no-repeat;
+	height: 35px;
+	width: 35px;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+}
+
+#game_area_userscore .wordmark {
+	float: left;
+	width: 180px;
+}
+
+#game_area_userscore .metacritic {
+	font-family: "Motiva Sans", Sans-serif;
+	font-weight: bold; /* bold */
+	color: #FFFFFF;
+	margin-left: 2px;
+	font-size: 26px;
+	line-height: 26px;
+	margin-top: 12px;
+	float: left;
+}
